@@ -11,8 +11,7 @@ def sccp():
     global score_computer
     score_computer += 1
 
-def scz(score_player = 0, score_computer = 0):
-    return
+
     
 
 def get_user_choice():
@@ -68,7 +67,7 @@ def game():
                 print("thanks. goodbye")
                 break
             else:
-              game() and scz()
+              game()
         else:
             game()
 
