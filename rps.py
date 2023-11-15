@@ -11,9 +11,9 @@ def sccp():
     global score_computer
     score_computer += 1
 
-def scz():
-    score_player = 0
-    score_computer = 0
+def scz(score_player = 0, score_computer = 0):
+    return
+    
 
 def get_user_choice():
     user_choice = input("chooce your destiny ").lower()
